@@ -1,4 +1,3 @@
-# Approach:
 # To find the median of two sorted arrays in O(log(min(m, n))) time, we use a binary search approach.
 # We will partition the arrays such that the left half contains half of the elements and the right half contains the other half.
 # The key is to ensure that the elements on the left are smaller than those on the right, while maintaining equal or nearly equal partition sizes.
